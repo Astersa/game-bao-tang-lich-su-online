@@ -8,6 +8,10 @@ Sản phẩm sáng tạo môn Lịch sử Đảng (VNR) – Nhóm 2. Bảo tàng
 - Thang máy kính lên tầng 2 và ban công ngắm cảnh.
 - Mỗi người là một người que có tên trên đầu; nhiều người vào cùng lúc thấy nhau, chat, vẫy tay, nhảy, đi theo người thuyết minh.
 
+## Chơi ngay
+
+👉 **https://tutuhehe999.github.io/game-bao-tang-lich-su-online/** (bản chạy sẵn trên GitHub Pages, chế độ một người cho tới khi bật Firebase)
+
 ## Deploy 1 cú bấm
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftutuhehe999%2Fgame-bao-tang-lich-su-online&project-name=game-bao-tang-lich-su-online)
