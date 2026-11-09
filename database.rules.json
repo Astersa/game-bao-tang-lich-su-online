@@ -1,0 +1,26 @@
+{
+  "rules": {
+    "$room": {
+      "players": {
+        ".read": true,
+        "$pid": {
+          ".write": true,
+          ".validate": "newData.hasChildren(['x','z','yaw','t']) || !newData.exists()",
+          "x": { ".validate": "newData.isNumber() && newData.val() >= -50 && newData.val() <= 50" },
+          "z": { ".validate": "newData.isNumber() && newData.val() >= -50 && newData.val() <= 70" },
+          "yaw": { ".validate": "newData.isNumber()" },
+          "t": { ".validate": "newData.isNumber() && newData.val() <= now + 60000" },
+          "m": { ".validate": "newData.isBoolean()" },
+          "y": { ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 12" },
+          "n": { ".validate": "newData.isString() && newData.val().length <= 24" },
+          "c": { ".validate": "newData.isString() && newData.val().length <= 7" },
+          "say": { ".validate": "newData.isString() && newData.val().length <= 80" },
+          "sayAt": { ".validate": "newData.isNumber()" },
+          "emote": { ".validate": "newData.isString() && newData.val().length <= 12" },
+          "emoteAt": { ".validate": "newData.isNumber()" },
+          "$other": { ".validate": false }
+        }
+      }
+    }
+  }
+}
